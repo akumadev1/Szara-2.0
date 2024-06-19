@@ -1,0 +1,30 @@
+.partnerscontainer {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  .partnersheading {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .partnerssubheading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .partnersgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .partner img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+  }
+  
