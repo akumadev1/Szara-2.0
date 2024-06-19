@@ -23,8 +23,6 @@ const BlogPosts = () => {
         }
         const data = await response.json();
         setBlogPosts(data);
-      } catch (error) {
-        setError(error.message);
       } finally {
         setLoading(false);
       }
